@@ -1,0 +1,7 @@
+bin/*
+Makefile
+build/*
+*.cmake
+nbproject/*
+CMakeFiles/*
+CMakeCache.txt
