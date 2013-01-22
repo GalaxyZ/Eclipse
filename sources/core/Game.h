@@ -18,7 +18,7 @@ class Graphics;
 class IGame : private boost::noncopyable
 {
 public:
-	virtual std::string getTitle() = 0; //Shall return the title of the game
+	virtual std::string getTitle() const = 0; //Shall return the title of the game
 	virtual void init(GameContainer &gc) = 0; //Initializes the game. @post : the game is initialised.
 	virtual void update(GameContainer &gc, int delta) = 0; //Updates the game's logic.	
 	virtual void render(GameContainer &gc, Graphics &graph) = 0; //Render a frame
