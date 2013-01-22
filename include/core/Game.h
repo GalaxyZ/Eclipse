@@ -1,5 +1,4 @@
-#ifndef DEF_ABSTRACT_GAME
-#define DEF_ABSTRACT_GAME
+#pragma once
 
 /**
  * Defines an Interface for a game (any game)
@@ -26,4 +25,3 @@ public:
 	virtual ~IGame(){}; //virtual destructor to allow proper cleaning in the derived classes.
 };
 
-#endif
