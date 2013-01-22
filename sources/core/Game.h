@@ -23,7 +23,7 @@ public:
 	virtual void update(GameContainer &gc, int delta) = 0; //Updates the game's logic.	
 	virtual void render(GameContainer &gc, Graphics &graph) = 0; //Render a frame
 	virtual bool closeRequested() = 0; //Ask to close the game. returns true if accepted, false else. Beware, the game can still be deleted if returns false
-
+	virtual ~IGame(){}; //virtual destructor to allow proper cleaning in the derived classes.
 };
 
 #endif
