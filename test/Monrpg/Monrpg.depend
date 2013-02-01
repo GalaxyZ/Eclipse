@@ -1,0 +1,84 @@
+# depslib dependency file v1.0
+1350223375 source:/home/chakib/Documents/RPGt/Arme.cpp
+	"Arme.h"
+
+1349610491 /home/chakib/Documents/RPGt/Arme.h
+	<iostream>
+	<string>
+
+1354890643 source:/home/chakib/Documents/RPGt/main.cpp
+	<iostream>
+	<string>
+	"Personnage.h"
+
+1354887247 /home/chakib/Documents/RPGt/Personnage.h
+	<iostream>
+	<string>
+	"Arme.h"
+	"Sort.h"
+
+1350311653 /home/chakib/Documents/RPGt/Sort.h
+	<iostream>
+	<string>
+
+1354887247 source:/home/chakib/Documents/RPGt/Personnage.cpp
+	"Personnage.h"
+	<string>
+
+1350311653 source:/home/chakib/Documents/RPGt/Sort.cpp
+	"Sort.h"
+
+1350223375 source:/home/chakib/Documents/Monrpg/Arme.cpp
+	"Arme.h"
+
+1349610491 /home/chakib/Documents/Monrpg/Arme.h
+	<iostream>
+	<string>
+
+1355147600 source:/home/chakib/Documents/Monrpg/demande.cpp
+	"demande.h"
+	"Personnage.h"
+	"Sort.h"
+	"Arme.h"
+	"Potion.h"
+	<iostream>
+	<string>
+
+1355155427 source:/home/chakib/Documents/Monrpg/main.cpp
+	<iostream>
+	<string>
+	"Personnage.h"
+	"demande.h"
+
+1355142551 /home/chakib/Documents/Monrpg/Personnage.h
+	<iostream>
+	<string>
+	"Arme.h"
+	"Sort.h"
+	"Potion.h"
+
+1355136333 /home/chakib/Documents/Monrpg/Sort.h
+	<iostream>
+	<string>
+
+1356361749 source:/home/chakib/Documents/Monrpg/Personnage.cpp
+	"Personnage.h"
+	"demande.h"
+	<string>
+	<ctime>
+	<cstdlib>
+
+1355060284 source:/home/chakib/Documents/Monrpg/Sort.cpp
+	"Sort.h"
+
+1355143808 /home/chakib/Documents/Monrpg/demande.h
+	<iostream>
+	<string>
+
+1355140140 /home/chakib/Documents/Monrpg/Potion.h
+	<iostream>
+	<string>
+
+1355140140 source:/home/chakib/Documents/Monrpg/Potion.cpp
+	"Potion.h"
+

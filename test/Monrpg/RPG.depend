@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1350223375 source:/media/OS/Users/CHAKIB_2/Documents/RPG/Arme.cpp
+	"Arme.h"
+
+1349610491 /media/OS/Users/CHAKIB_2/Documents/RPG/Arme.h
+	<iostream>
+	<string>
+
+1354888261 source:/media/OS/Users/CHAKIB_2/Documents/RPG/main.cpp
+	<iostream>
+	<string>
+	"Personnage.h"
+
+1354887247 /media/OS/Users/CHAKIB_2/Documents/RPG/Personnage.h
+	<iostream>
+	<string>
+	"Arme.h"
+	"Sort.h"
+
+1350311653 /media/OS/Users/CHAKIB_2/Documents/RPG/Sort.h
+	<iostream>
+	<string>
+
+1354887247 source:/media/OS/Users/CHAKIB_2/Documents/RPG/Personnage.cpp
+	"Personnage.h"
+	<string>
+
+1350223375 source:/home/chakib/Documents/RPG/Arme.cpp
+	"Arme.h"
+
+1349610491 /home/chakib/Documents/RPG/Arme.h
+	<iostream>
+	<string>
+
+1354888261 source:/home/chakib/Documents/RPG/main.cpp
+	<iostream>
+	<string>
+	"Personnage.h"
+
+1354887247 /home/chakib/Documents/RPG/Personnage.h
+	<iostream>
+	<string>
+	"Arme.h"
+	"Sort.h"
+
+1350311653 /home/chakib/Documents/RPG/Sort.h
+	<iostream>
+	<string>
+
+1354887247 source:/home/chakib/Documents/RPG/Personnage.cpp
+	"Personnage.h"
+	<string>
+
