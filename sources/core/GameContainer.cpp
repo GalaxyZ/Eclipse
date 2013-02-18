@@ -17,14 +17,15 @@ GameContainer::~GameContainer()
 {}
 
 	
-GameContainer::void start() const
+void GameContainer::start() const
+{
+
+}
+
+void GameContainer::stop() const
 {
 }
 
-GameContainer::void stop() const
-{
-}
-
-GameContainer::void gameLoop() const
+void GameContainer::gameLoop() const
 {
 }

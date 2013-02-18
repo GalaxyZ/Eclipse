@@ -27,16 +27,12 @@ public:
 	
 
 	virtual ~GameContainer(); //Virtual destructor for polymorphic base class
-	
-	
-protected:
-	virtual void setup() = 0; //Called to set up the GameContainer. SHOULD NOT CALL Game::init()
-	virtual void cleanup() = 0;//Called to clean the GameContainer after the game has stopped (do not call Game::closeRequested())
+
 private:
 	//Private methods
 	void gameLoop() const; //Process the game Loop
-
-
+	virtual void setup() = 0; //Called to set up the GameContainer. SHOULD NOT CALL Game::init()
+	virtual void cleanup() = 0;//Called to clean the GameContainer after the game has stopped (do not call Game::closeRequested())
 
 	//Private attributes
 	boost::shared_ptr< IGame > _game;
