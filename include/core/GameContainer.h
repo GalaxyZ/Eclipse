@@ -34,6 +34,8 @@ private:
 	virtual void setup() = 0; //Called to set up the GameContainer. SHOULD NOT CALL Game::init()
 	virtual void cleanup() = 0;//Called to clean the GameContainer after the game has stopped (do not call Game::closeRequested())
 
+	bool is_running;
+
 	//Private attributes
 	boost::shared_ptr< IGame > _game;
 };
