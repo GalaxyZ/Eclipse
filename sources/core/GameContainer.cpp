@@ -8,6 +8,7 @@
 #include <core/GameContainer.h>
 
 #include <core/Game.h>
+#include <cassert>
 
 GameContainer::GameContainer(boost::shared_ptr< IGame > game) : _game(game)
 {
@@ -20,9 +21,8 @@ GameContainer::~GameContainer()
 	
 void GameContainer::start() const
 {
-	is_running = true;
-	this->setup;
 	_game->init(*this);
+	this->setup;
 	this->gameLoop();
 }
 
@@ -33,6 +33,8 @@ void GameContainer::stop() const
 
 void GameContainer::gameLoop() const
 {
+	assert(is_running == false)	
+	is_running = true;
 	while(is_running){
 		//Actions here
 	}
