@@ -16,3 +16,15 @@ GameContainer::GameContainer(boost::shared_ptr< IGame > game) : _game(game)
 GameContainer::~GameContainer()
 {}
 
+	
+GameContainer::void start() const
+{
+}
+
+GameContainer::void stop() const
+{
+}
+
+GameContainer::void gameLoop() const
+{
+}
